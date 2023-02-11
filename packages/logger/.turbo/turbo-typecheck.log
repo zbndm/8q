@@ -1,0 +1,4 @@
+
+> @solid-devtools/logger@0.5.2 typecheck /workspace/solid-devtools/packages/logger
+> tsc --noEmit --paths null
+

@@ -1,0 +1,30 @@
+
+> @solid-devtools/shared@0.10.1 build /workspace/solid-devtools/packages/shared
+> tsup
+
+CLI Building entry: src/index.ts, src/utils.ts, src/primitives.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.6.0
+CLI Using tsup config: /workspace/solid-devtools/packages/shared/tsup.config.ts
+CLI Target: esnext
+CLI Cleaning output folder
+CJS Build start
+ESM Build start
+CJS dist/utils.cjs      3.58 KB
+CJS dist/index.cjs      7.97 KB
+CJS dist/primitives.cjs 5.56 KB
+CJS ⚡️ Build success in 85ms
+ESM dist/utils.js          513.00 B
+ESM dist/chunk-BGRVHE3T.js 4.33 KB
+ESM dist/chunk-UICA3PK6.js 191.00 B
+ESM dist/primitives.js     465.00 B
+ESM dist/chunk-NXTRM26X.js 2.74 KB
+ESM dist/index.js          218.00 B
+ESM ⚡️ Build success in 86ms
+DTS Build start
+DTS ⚡️ Build success in 2996ms
+DTS dist/index.d.ts               262.00 B
+DTS dist/primitives.d.ts          471.00 B
+DTS dist/utils.d.ts               300.00 B
+DTS dist/primitives-c23cc3ec.d.ts 4.47 KB
+DTS dist/utils-725a6bed.d.ts      3.19 KB

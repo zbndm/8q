@@ -1,0 +1,16 @@
+
+> @solid-devtools/transform@0.9.0 test /workspace/solid-devtools/packages/transform
+> vitest
+
+
+ RUN  v0.25.8 /workspace/solid-devtools/packages/transform
+
+ ✓ test/location.test.ts  (3 tests) 96ms
+ ✓ test/name.test.ts  (92 tests) 520ms
+
+ Test Files  2 passed (2)
+      Tests  95 passed (95)
+   Start at  03:02:42
+   Duration  9.29s (transform 1.20s, setup 1ms, collect 1.56s, tests 616ms)
+
+close timed out after 1000ms

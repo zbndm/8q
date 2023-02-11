@@ -1,0 +1,4 @@
+
+> @solid-devtools/shared@0.10.1 typecheck /workspace/solid-devtools/packages/shared
+> tsc --noEmit --paths null
+

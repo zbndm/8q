@@ -1,0 +1,5 @@
+
+> @solid-devtools/logger@0.5.2 test /workspace/solid-devtools/packages/logger
+> echo "NOOP test"
+
+NOOP test

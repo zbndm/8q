@@ -1,0 +1,12 @@
+
+> @solid-devtools/shared@0.10.1 test /workspace/solid-devtools/packages/shared
+> vitest
+
+
+ RUN  v0.25.8 /workspace/solid-devtools/packages/shared
+
+No test files found, exiting with code 0
+
+include: **/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}
+exclude:  **/node_modules/**, **/dist/**, **/cypress/**, **/.{idea,git,cache,output,temp}/**, **/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress}.config.*
+watch exclude:  **/node_modules/**, **/dist/**

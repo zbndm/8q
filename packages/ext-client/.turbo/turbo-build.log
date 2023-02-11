@@ -1,0 +1,29 @@
+
+> solid-devtools@0.23.1 build /workspace/solid-devtools/packages/ext-client
+> tsup
+
+CLI Building entry: src/index.ts, src/server.ts, src/vite.ts, src/bridge.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.6.0
+CLI Using tsup config: /workspace/solid-devtools/packages/ext-client/tsup.config.ts
+CLI Target: esnext
+CLI Cleaning output folder
+CJS Build start
+ESM Build start
+Entry module "dist/vite.cjs" is using named and default exports together. Consumers of your bundle will have to use `chunk.default` to access the default export, which may not be what you want. Use `output.exports: "named"` to disable this warning.
+CJS dist/bridge.cjs 745.00 B
+CJS dist/server.cjs 708.00 B
+CJS dist/vite.cjs   387.00 B
+CJS dist/index.cjs  2.31 KB
+CJS ⚡️ Build success in 572ms
+ESM dist/chunk-7NOROMYZ.js 576.00 B
+ESM dist/index.js          1.50 KB
+ESM dist/server.js         119.00 B
+ESM dist/bridge.js         210.00 B
+ESM dist/vite.js           87.00 B
+ESM ⚡️ Build success in 981ms
+DTS Build start
+DTS ⚡️ Build success in 12097ms
+DTS dist/index.d.ts  165.00 B
+DTS dist/vite.d.ts   110.00 B
+DTS dist/bridge.d.ts 3.07 KB

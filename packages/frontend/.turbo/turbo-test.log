@@ -1,0 +1,15 @@
+
+> @solid-devtools/frontend@0.2.4 test /workspace/solid-devtools/packages/frontend
+> vitest
+
+
+ RUN  v0.25.8 /workspace/solid-devtools/packages/frontend
+
+ ✓ src/modules/structure/test/virtual.test.ts  (5 tests) 6ms
+ ✓ src/modules/structure/test/structure.test.ts  (6 tests) 19ms
+
+ Test Files  2 passed (2)
+      Tests  11 passed (11)
+   Start at  03:03:06
+   Duration  22.14s (transform 1.45s, setup 0ms, collect 367ms, tests 25ms)
+

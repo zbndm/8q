@@ -1,0 +1,24 @@
+
+> @solid-devtools/transform@0.9.0 build /workspace/solid-devtools/packages/transform
+> tsup
+
+CLI Building entry: src/index.ts, src/types.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.6.0
+CLI Using tsup config: /workspace/solid-devtools/packages/transform/tsup.config.ts
+CLI Target: esnext
+CLI Cleaning output folder
+CJS Build start
+ESM Build start
+Entry module "dist/index.cjs" is using named and default exports together. Consumers of your bundle will have to use `chunk.default` to access the default export, which may not be what you want. Use `output.exports: "named"` to disable this warning.
+ESM dist/index.js          3.90 KB
+ESM dist/chunk-PRSR3EF5.js 105.00 B
+ESM dist/types.js          131.00 B
+ESM ⚡️ Build success in 263ms
+CJS dist/types.cjs 199.00 B
+CJS dist/index.cjs 4.71 KB
+CJS ⚡️ Build success in 264ms
+DTS Build start
+DTS ⚡️ Build success in 5683ms
+DTS dist/index.d.ts 513.00 B
+DTS dist/types.d.ts 341.00 B

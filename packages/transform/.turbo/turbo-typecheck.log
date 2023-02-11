@@ -1,0 +1,4 @@
+
+> @solid-devtools/transform@0.9.0 typecheck /workspace/solid-devtools/packages/transform
+> tsc --noEmit
+

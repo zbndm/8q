@@ -1,0 +1,39 @@
+
+> solid-devtools-extension@0.19.4 build /workspace/solid-devtools/packages/extension
+> npm run clean && vite build && node scripts/zip.cjs
+
+
+> solid-devtools-extension@0.19.4 clean
+> rimraf dist dist.zip
+
+vite v3.2.5 building for production...
+transforming...
+✓ 62 modules transformed.
+rendering chunks...
+dist/index.html                                                     0.80 KiB
+dist/popup/popup.html                                               0.65 KiB
+dist/devtools/devtools.html                                         0.50 KiB
+dist/manifest.json                                                  1.50 KiB
+dist/assets/content-script-loader.content.ts.8c08a70b.7d54d0fb.js   0.19 KiB
+dist/service-worker-loader.js                                       0.04 KiB
+dist/assets/icons/solid-normal-32.png                               1.67 KiB
+dist/assets/icons/solid-normal-16.png                               1.08 KiB
+dist/assets/icons/solid-normal-128.png                              7.66 KiB
+dist/assets/icons/solid-gray-32.png                                 1.66 KiB
+dist/assets/icons/solid-gray-16.png                                 1.08 KiB
+dist/assets/icons/solid-normal-48.png                               2.60 KiB
+dist/assets/icons/solid-gray-48.png                                 2.52 KiB
+dist/assets/icons/solid-gray-128.png                                7.07 KiB
+dist/assets/modulepreload-polyfill.c7c6310f.js                      0.69 KiB / gzip: 0.39 KiB
+dist/assets/chunk-NXTRM26X.a75724e8.js                              1.42 KiB / gzip: 0.75 KiB
+dist/assets/web.f5e8afbd.js                                         6.92 KiB / gzip: 2.79 KiB
+dist/assets/chunk-7NOROMYZ.f0d1f7d8.js                              1.23 KiB / gzip: 0.62 KiB
+dist/assets/content.ts.8c08a70b.js                                  1.49 KiB / gzip: 0.89 KiB
+dist/assets/background.ts.cf01e96e.js                               2.75 KiB / gzip: 1.04 KiB
+dist/assets/icons.c6dd0c65.js                                       0.34 KiB / gzip: 0.14 KiB
+dist/assets/devtools.html.bb0494eb.js                               0.61 KiB / gzip: 0.41 KiB
+dist/assets/popup.html.4b5b698e.js                                  1.50 KiB / gzip: 0.80 KiB
+dist/assets/realWorld.a90e9989.js                                   0.15 KiB / gzip: 0.15 KiB
+dist/assets/popup.c8fc5a4e.css                                      0.48 KiB / gzip: 0.28 KiB
+dist/assets/index.bc683c87.css                                      18.59 KiB / gzip: 4.10 KiB
+dist/assets/panel.43fb6ea2.js                                       88.63 KiB / gzip: 28.34 KiB

@@ -1,0 +1,4 @@
+
+> solid-devtools-extension@0.19.4 typecheck /workspace/solid-devtools/packages/extension
+> tsc --noEmit --paths null
+

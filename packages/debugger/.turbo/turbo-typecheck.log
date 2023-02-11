@@ -1,0 +1,4 @@
+
+> @solid-devtools/debugger@0.15.3 typecheck /workspace/solid-devtools/packages/debugger
+> tsc --noEmit --paths null
+

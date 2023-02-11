@@ -1,0 +1,4 @@
+
+> @solid-devtools/frontend@0.2.4 typecheck /workspace/solid-devtools/packages/frontend
+> tsc --noEmit
+

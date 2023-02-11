@@ -1,0 +1,4 @@
+
+> solid-devtools@0.23.1 typecheck /workspace/solid-devtools/packages/ext-client
+> tsc --noEmit --paths null
+
